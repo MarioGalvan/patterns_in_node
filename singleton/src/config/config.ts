@@ -7,9 +7,9 @@ export class AppSetup {
   private static instance: AppSetup | null = null;
   
   private constructor() {
-    this.port = 3000;
-    this.appName = "My App";
-    this.appVersion = "1.0.0";
+    this.port = 0;
+    this.appName = "";
+    this.appVersion = "";
   }
 
   public static getInstance(): AppSetup {
